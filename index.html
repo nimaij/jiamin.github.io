@@ -1,34 +1,105 @@
 <style>
-  @import url(https://fonts.googleapis.com/css?family=Sacramento);
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
-h1{
-  font-family:'Sacramento';
-  font-size:80px;
-  text-align:center;
+body, html {
+    height: 100%;
 }
 
-h2{
-  font-family:'Sacramento';
-  font-size:50px;
-  text-align:center;
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.unsplash.com/photo-1463760959829-d829ea46e191?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=132b48c507ccf1305d3af4151c335ec9&auto=format&fit=crop&w=1050&q=80");
+
+    /* Set a specific height */
+    height: 80%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-attachment: fixed;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-#welcome-section{
-  font-family:'Sacramento';
-  font-size:30px;
-  text-align:center;
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+  
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+  
+.text {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Roboto", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #566b78;
 }
 
+h2,
+strong {
+  color: #333;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  border-left: 2px solid #69c;
+  padding: 1em;
+}
 </style>
 
-<section id='welcome-section'>
-  <h1>Jiamin Lim</h1>
-  <p>I enjoy creating things through coding!<p>
-  </p>
-</section>
 
-<section id='projects'>
-  <h2>Project 1</h2>
-  <h2>Project 2</h2>
-  <h2>Project 3</h2>
-</section>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>Hi, I'm Jiamin Lim.</h1>
+  </div>
+</div>
+
+<div class="text">
+<p>
+  Hi, my name is <strong>Jiamin Lim</strong>. Aspiring software developer and creator of cool things. I currently work as an Economist at Australia's central bank, focusing on blockchain technology and fintech.
+</p> 
+<p>
+  What excites me about coding is being able to <strong>create</strong> products that helps others. 
+  <br>My journey with coding so far:
+  <ul style="list-style-type:disc">
+  <li>2006: Played around with <strong>HTML and CSS</strong> to customise my blog.</li>
+  <li>2013: Self-learnt <strong>R</strong> at university to complete my econometrics assignments.</li>
+  <li>2014-15: Using R to conduct econometrics analysis for my thesis and at work at the RBA.</li>
+  <li>2016: Took a part-time course on Data Science at General Assembly. Used <strong>Python</strong> to implement machine learning techniques to predict microfinance loans success.</li>
+  <li>2017: Attempted to build a simple one-page Meme Android app using <strong>Java</strong></li>
+  <li>May 2018: Attended an Amazon Alexa Dev day event and learnt how to implement a basic voice skill.</li>
+  <li>June 2018: Took part in a hackathon where we built a basic "Uber-like" platform for non-for-profit HillsCarPal</li>
+  </ul>
+</p>
+<a href="https://www.codewars.com/users/nimaij">
+  <img src="codewars.png" style="width:42px;height:42px;border:0">
+</a>
+</div>
+
+<div class="hero-image">
+</div>
+
