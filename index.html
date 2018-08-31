@@ -8,7 +8,7 @@ body, html {
 /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.unsplash.com/photo-1463760959829-d829ea46e191?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=132b48c507ccf1305d3af4151c335ec9&auto=format&fit=crop&w=1050&q=80");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(IMG_20180831_214212.jpg);
 
     /* Set a specific height */
     height: 80%;
@@ -46,9 +46,19 @@ h2 {
   line-height: 1.5;
   padding: 4em 1em;
   color: #566b78;
-  text-align:center;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
+ .links {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Roboto", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #566b78;
+  text-align: center;
+}
 h2,
 strong {
   color: #333;
@@ -70,6 +80,14 @@ pre {
   border-left: 2px solid #69c;
   padding: 1em;
 }
+  
+ul li { 
+  padding: 5px 0px; 
+}
+  
+img{
+    margin:10px;
+}
 </style>
 
 
@@ -81,30 +99,32 @@ pre {
 
 <div class="text">
 <p>
-  Hi, my name is <strong>Jiamin Lim</strong>. Aspiring software developer and creator of cool things. I currently work as an Economist at Australia's central bank, focusing on blockchain technology and fintech.
+  Hi, my name is <strong>Jiamin Lim</strong>. Aspiring software developer, currently an economist based in Sydney, Australia. I am looking forward to joining the winter cohort for <strong>Founders and Coders</strong>!
 </p> 
 <p>
-  What excites me about coding is being able to <strong>create</strong> products that helps others. 
-  <br>My journey with coding so far:
-  <ul style="list-style-type:disc">
-  <li>2006: Played around with <strong>HTML and CSS</strong> to customise my blog.</li>
-  <li>2013: Self-learnt <strong>R</strong> at university to complete my econometrics assignments.</li>
-  <li>2014-15: Using R to conduct econometrics analysis for my thesis and at work at the RBA.</li>
-  <li>2016: Took a part-time course on Data Science at General Assembly. Used <strong>Python</strong> to implement machine learning techniques to predict microfinance loans success.</li>
-  <li>2017: Attempted to build a simple one-page Meme Android app using <strong>Java</strong></li>
-  <li>May 2018: Attended an Amazon Alexa Dev day event and learnt how to implement a basic voice skill.</li>
-  <li>June 2018: Took part in a hackathon where we built a basic "Uber-like" platform for non-for-profit HillsCarPal</li>
-  </ul>
+  I want to transition to software development as I enjoy the puzzle-solving and creative aspects of it. Strangely enough, looking back, I have been involved in coding in one way or another over the past few years. The evolution of my coding journey can be found below:
   <br>
-<strong> My Links: </strong>
-<br>
-<a href="https://github.com/nimaij"><img src="github.png" style="width:60px;height:60px;border:0"></a>
-<a href="https://www.codewars.com/users/nimaij"><img src="codewars.png" style="width:60px;height:60px;border:0"></a>
-<a href="https://www.freecodecamp.org/jiamin"><img src="fcc.png" style="width:60px;height:60px;border:0"></a>
-<a href="https://www.linkedin.com/in/jia-min-lim/"><img src="linkedin.png" style="width:60px;height:60px;border:0"></a>
-</p>
+  <ul style="list-style-type:disc">
+  <li>2006: My first coding experience was with my personal blog in high school, where I played around with <strong>HTML and CSS</strong> to further customise some of the templates.</li>
+  <li>2013-15: While studying economics at university, I self-learnt <strong>R</strong> to complete my econometrics assignments. Later on, I used <strong>R</strong> to conduct data analysis working as an economist at the Reserve Bank of Australia.</li>
+  <li>2016: I took a part-time course on Data Science at General Assembly, where I used <strong>Python</strong> to implement machine learning techniques to predict the success of crowdfunding campaigns for microfinance loans (for more info, see my <a href="https://github.com/nimaij/project">Github</a>).</li>
+  <li>2017-18: Realising that I was more interested in using coding as a means to create products rather than analyse data, as a fun little side project, I followed a <a href="https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBsvRxJJOzG4r4k_zLKrnxl">youtube tutorial</a> and built a simple meme creator app in <strong>Java</strong> using Android Studio. It was really fun!</li>
+  <li>May 2018: I found out about a free Amazon Alexa Dev day event and learnt the 101 on how to implement a voice skill. This made me very curious about what was going on under the hood and also all the fun voice apps you could make with it!</li>
+  <li>June 2018: I then took part in <a href="http://www.rhokaustralia.org/">Random Hacks of Kindness</a>, a hackathon where teams come together to help non-for-profits build tech solutions. My team partnered with a charity that works with its volunteer network to provide "free Uber for seniors". We worked closely with the charity to design and build a web-based platform that allowed volunteer drivers to view all available ride requests and sort based on criteria such as time or location. While I was mostly involved in the design and testing, it was very fascinating to see the the front-end and back-end developers working together to bring the project to life!</li>
+  <li>July-August 2018: I found out about <strong>Founders and Coders</strong> on a medium blog and was really excited about the peer-led learning model and social purpose aspect to it. Finally managed to finish the prereqs and apply for the winter cohort!</li>
+  <li>September 2018: <strong>To be continued...</strong>
+  </ul>
 </div>
 
+<div class="links">
+<strong> Check out some of my links below: </strong>
+<br>
+<a href="https://github.com/nimaij"><img src="github.png" style="width:80px;height:80px;border:0"></a>
+<a href="https://www.codewars.com/users/nimaij"><img src="codewars.png" style="width:80px;height:80px;border:0"></a>
+<a href="https://www.freecodecamp.org/jiamin"><img src="fcc.png" style="width:80px;height:80px;border:0"></a>
+<a href="https://www.linkedin.com/in/jia-min-lim/"><img src="linkedin.png" style="width:80px;height:80px;border:0"></a>
+</p>
+</div>
 <div class="hero-image">
 </div>
 
